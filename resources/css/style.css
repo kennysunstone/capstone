@@ -46,15 +46,17 @@ nav a {
   text-decoration: none;
 }
 .banner {
-  background-color: #d3d3d3;
+  background-color: #cccccc;
   display:flex;
   justify-content: space-between;
   align-items: center;
-  height: 40rem;
 }
-.banner img {
+.banner .imageContainer {
   width: 60%;
-  padding: 2rem 1.5rem;
+  margin: 2rem 1.5rem;
+}
+.banner .imageContainer img {
+  width: 100%;
 }
 .banner .container {
   display: flex;
@@ -89,4 +91,87 @@ nav a {
 .banner .container .button p {
   margin-top: 0.5rem;
   color: #ffffff;
+}
+.highlights {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #f2f2f2;
+}
+.highlights .practice {
+  display: flex;
+  flex-direction: column;
+  color: #4d4d4d;
+  width: 60%;
+  margin: 2rem 1.5rem;
+}
+.highlights .practice .imageContainer img {
+  width: 90%;
+}
+.highlights .practice .textContainer {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.highlights .practice h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  padding-bottom: 1.5rem;
+}
+.highlights .practice h6{
+  font-weight: 300;
+  line-height: 1.4;
+  width: 75%;
+  padding-bottom: 2rem;
+}
+.highlights .practice p {
+  font-size: 0.8rem;
+}
+.highlights .information {
+  display: flex;
+  flex-direction: column;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-left: #cccccc solid 1px;
+  width: 40%;
+  height: 35rem;
+}
+.highlights .information .content {
+  display: flex;
+  border-bottom: #cccccc solid 4px;
+  padding-left: 1rem;
+}
+.highlights .information .content .image {
+  display: flex;
+  max-width: 35%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.highlights .information .content .image img {
+  object-fit: contain;
+  overflow: hidden;
+}
+.highlights .information .content .text {
+  display:flex;
+  flex-direction: column;
+  align-content: flex-start;
+  padding-top: 1.5rem;
+  padding-left: 1rem;
+}
+.highlights .information .content .text h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #595959;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.highlights .information .content .text p {
+  font-weight: 300;
+  color: #4d4d4d;
+  padding-bottom: 1rem;
+  padding-right: 3.5rem;
+  line-height: 1.2;
+}.highlights .information .content .text a {
+  text-decoration: none;
+}
+#guest {
+  background-color: #cccccc;
 }
