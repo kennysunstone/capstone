@@ -1,0 +1,92 @@
+html {
+  font-size: 16px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+header {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo {
+  display:flex;
+  justify-content: flex-start;
+  margin-left: 1.5rem;
+  font-size: 2rem;;
+}
+header .logo img {
+  height: 3rem;
+  width:auto;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+header .logo h4 {
+  font-family: "Ubuntu",sans-serif;
+  font-weight: 700;
+  color: #808080;
+  margin-top: 1rem;
+}
+header .logo p {
+  font-family: "Ubuntu",sans-serif;
+  font-weight: 300;
+  color: #808080;
+  margin-top: 1rem;
+}
+header nav {
+  margin-right: 1.5rem;
+}
+header ul li {
+  color: #4d4d4d;
+  display: inline;
+  padding-left: 1rem;
+  font-size: 1.5rem;
+}
+nav a {
+  color: #4d4d4d;
+  text-decoration: none;
+}
+.banner {
+  background-color: #d3d3d3;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40rem;
+}
+.banner img {
+  width: 60%;
+  padding: 2rem 1.5rem;
+}
+.banner .container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1.5rem;
+  margin-right: 4rem;
+  text-align: left;
+  color: #4d4d4d;
+}
+.banner .container h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-bottom: 1.5rem;
+  line-height: 1.2;
+}
+.banner .container h2 {
+  font-size: 1.5rem;
+  line-height: 1.4;
+  padding-bottom: 1.5rem;
+}
+.banner .container .button {
+  background-color: #404040;
+  text-align: center;
+  color: #ffffff;
+  height: 2.25rem;
+  margin-right: 4.5rem;
+}
+.banner .container .button a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.banner .container .button p {
+  margin-top: 0.5rem;
+  color: #ffffff;
+}
